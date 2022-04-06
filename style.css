@@ -51,13 +51,23 @@ header ul {
   display: none;
 }
 
-.image-foto {
-  object-fit: cover;
+img {
+  display: block;
 }
 
+.right-patern {
+  position: absolute;
+  right: 27%;
+  bottom: -68%;
+}
+
+.left-patern {
+  position: absolute;
+  top: 74%;
+  left: 27%;
+}
 .humanizing {
   background-color: var(--dark-violet);
-  background-image: url(./images/bg-pattern-intro-right-mobile.svg);
   color: var(--very-light-gray);
   padding: 90px 30px;
   text-align: center;
