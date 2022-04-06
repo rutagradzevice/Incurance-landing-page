@@ -40,38 +40,6 @@ h4 {
   font-family: "DM Serif Display", serif;
 }
 
-.h1-white {
-  color: white;
-  font-size: 40px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-header ul {
-  display: none;
-}
-
-img {
-  display: block;
-}
-
-.right-patern {
-  position: absolute;
-  right: 27%;
-  bottom: -68%;
-}
-
-.left-patern {
-  position: absolute;
-  top: 74%;
-  left: 27%;
-}
-.humanizing {
-  background-color: var(--dark-violet);
-  color: var(--very-light-gray);
-  padding: 90px 30px;
-  text-align: center;
-}
 .button {
   border: 1px solid white;
   background-color: var(--dark-violet);
@@ -80,7 +48,86 @@ img {
   text-transform: uppercase;
   margin-top: 30px;
 }
-.humanizing p {
+
+.card {
+  margin: 40px 30px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+/*.card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+.h1-different {
+  text-align: center;
+  color: var(--very-dark-violet);
+  font-size: 40px;
+  padding-top: 90px;
+}
+
+.h1-white {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.h1-work {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+h3 {
+  color: var(--very-dark-violet);
+  padding-bottom: 20px;
+}
+
+header ul {
+  display: none;
+}
+.humanizing {
+  background-color: var(--dark-violet);
+  color: var(--very-light-gray);
+  padding: 90px 30px;
+  text-align: center;
+}
+
+.icon {
+  position: absolute;
+  right: 45%;
+  transform: translateY(-120%);
+}
+
+img {
+  display: block;
+}
+
+.left-patern {
+  position: absolute;
+  top: 74%;
+  left: 27%;
+}
+p {
   line-height: 1.5;
-  font-size: 16px;
+}
+.patern-work {
+  position: absolute;
+  transform: translateY(-15%);
+  right: 30%;
+}
+
+.right-patern {
+  position: absolute;
+  right: 27%;
+  bottom: -68%;
+}
+.work {
+  border: 1px solid rgb(250, 165, 7);
+  background-color: var(--dark-violet);
+  margin: 80px 30px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  text-align: center;
 }
