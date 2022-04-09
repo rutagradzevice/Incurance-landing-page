@@ -71,6 +71,51 @@ h4 {
   position: relative;
 }
 
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: var(--very-light-gray);
+  background-image: url(./images/bg-pattern-footer-mobile.svg);
+  background-repeat: no-repeat;
+  gap: 30px;
+  align-items: center;
+}
+.footer-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-icons:nth-of-type(2)::before {
+  content: "";
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+footer h4 {
+  color: var(--dark-grayish-violet);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+footer ul li {
+  list-style: none;
+  color: var(--dark-violet);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .h1-different {
   text-align: center;
   color: var(--very-dark-violet);
@@ -135,10 +180,12 @@ p {
   right: 0%;
   bottom: -40%;
 }
+
 .work {
   border: 1px solid rgb(250, 165, 7);
   background-color: var(--dark-violet);
   margin-top: 100px;
+  margin-bottom: 100px;
   padding-top: 70px;
   padding-bottom: 70px;
   text-align: center;
